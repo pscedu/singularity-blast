@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ! $(command -v singularity) ]; then
+	module load singularity
+fi
+
+VERSION=2.9.0
+PACKAGE=blast
+TOOL=blastn
+DIRECTORY=/opt/packages/$PACKAGE/$VERSION
+
+singularity exec -B /ocean $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
