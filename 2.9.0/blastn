@@ -5,7 +5,7 @@ if [ ! $(command -v singularity) ]; then
 fi
 
 VERSION=2.9.0
-PACKAGE=blast
+PACKAGE=BLAST
 TOOL=blastn
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 

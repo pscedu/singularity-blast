@@ -22,11 +22,11 @@ BLAST (basic local alignment search tool) is an algorithm and program for compar
 
 To load the module type
 
-> module load blast/2.9.0
+> module load BLAST/2.9.0
 
 To unload the module type
 
-> module unload blast/2.9.0
+> module unload BLAST/2.9.0
 
 Documentation
 -------------
@@ -47,7 +47,7 @@ Tools included in this module are
 * blastp
 ]])
 
-local package = "blast"
+local package = "BLAST"
 local version = "2.9.0"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
