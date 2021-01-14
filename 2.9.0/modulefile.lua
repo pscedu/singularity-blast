@@ -32,10 +32,9 @@ Documentation
 -------------
 https://www.ncbi.nlm.nih.gov/books/NBK279690/
 
-For help, type
+For help, type for example
 
 > blastn -help
-> blastp -help
 
 Repository
 ----------
@@ -45,6 +44,8 @@ Tools included in this module are
 
 * blastn
 * blastp
+* makeblastdb
+* blastdbcmd
 ]])
 
 local package = "BLAST"
