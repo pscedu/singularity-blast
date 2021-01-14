@@ -42,10 +42,27 @@ ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+
 
 Tools included in this module are
 
+* blast_formatter
+* blastdb_path
 * blastn
+* deltablast
+* rpsblast
+* update_blastdb.pl
+* blast_report
+* blastdbcheck
 * blastp
-* makeblastdb
+* legacy_blast.pl
+* rpstblastn
+* blastdb_aliastool
 * blastdbcmd
+* blastx
+* makeblastdb
+* tblastn
+* blastdb_convert
+* blastdbcp
+* convert2blastmask
+* psiblast
+* tblastx
 ]])
 
 local package = "BLAST"

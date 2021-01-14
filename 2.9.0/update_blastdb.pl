@@ -6,7 +6,7 @@ fi
 
 VERSION=2.9.0
 PACKAGE=BLAST
-TOOL=makeblastdb
+TOOL=update_blastdb.pl
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 
 PERSISTENT_FILE_STORAGE=/ocean
