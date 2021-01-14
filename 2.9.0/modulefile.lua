@@ -123,7 +123,6 @@ Tools included in this module are
 * makeblastdb
 * windowmasker
 * makembindex
-* windowmasker_2.2.22_adapter.py
 * makeprofiledb
 * writedb_unit_test
 ]])
