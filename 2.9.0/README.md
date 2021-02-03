@@ -10,13 +10,29 @@ There is no need to build a container, because an image is already available fro
 bash ./pull.sh
 ```
 
+To build the image from a recipe (recommend), run
+
+```
+bash ./build.sh
+```
+
+To build the image from a recipe remotely, run
+
 to download the image from the repository.
 
 ## Installing the container on Bridges (or similar)
+Run
+
+```
+bash ./generate_binaries.sh
+```
+
+to generate all the binaries associated with this package. Do not edit the shell scripts individually.
+
 Copy the
 
 * `SIF` file
-* and the `blastn` and `blastp` script
+* and the shell scripts
 
 to `/opt/packages/blast/2.9.0`.
 
