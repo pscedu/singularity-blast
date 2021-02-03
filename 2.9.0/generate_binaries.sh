@@ -40,8 +40,8 @@ TOOLS=(aalookup_unit_test           msa2pssm_unit_test
 	legacy_blast.pl              update_blastdb.pl
 	linkhsp_unit_test            version_reference_unit_test
 	makeblastdb                  windowmasker
-	makembindex                  windowmasker_2.2.22_adapter.py
-	makeprofiledb                writedb_unit_test)
+	makembindex                  makeprofiledb
+	writedb_unit_test)
 
 cat << EOF > template
 #!/bin/bash
