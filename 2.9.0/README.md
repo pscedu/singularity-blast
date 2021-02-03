@@ -10,6 +10,8 @@ There is no need to build a container, because an image is already available fro
 bash ./pull.sh
 ```
 
+to download the image from the repository.
+
 To build the image from a recipe (recommend), run
 
 ```
@@ -18,7 +20,9 @@ bash ./build.sh
 
 To build the image from a recipe remotely, run
 
-to download the image from the repository.
+```
+bash ./rbuild.sh
+```
 
 ## Installing the container on Bridges (or similar)
 Run
