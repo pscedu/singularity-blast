@@ -13,9 +13,9 @@ Copy the
 * `SIF` file
 * and the Perl scripts
 
-to `/opt/packages/blast/2.9.0`.
+to `/opt/packages/blast/2.11.0`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/blast` as `2.9.0.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/blast` as `2.11.0.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally
