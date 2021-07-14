@@ -11,7 +11,7 @@ Singularity recipe for [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&
 Copy the
 
 * `SIF` file
-* and the Perl scripts
+* and the other scripts
 
 to `/opt/packages/blast/2.11.0`.
 
