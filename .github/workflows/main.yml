@@ -1,6 +1,7 @@
 name: Singularity build
 on: [push, pull_request]
 jobs:
+
   build:
     name: Build
     runs-on: ubuntu-18.04
@@ -14,6 +15,9 @@ jobs:
     steps:
     - name: Check out code for the container build
       uses: actions/checkout@v1
+      
+    - name: Install tree
+      run: apk add --no-cache tree
 
     - name: Build and test container
       run: |
